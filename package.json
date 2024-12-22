@@ -1,0 +1,32 @@
+{
+  "name": "ing-employee-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "localize:extract": "lit-localize extract",
+    "localize:build": "lit-localize build",
+    "test": "web-test-runner --coverage",
+    "test:watch": "web-test-runner --coverage --watch"
+  },
+  "dependencies": {
+    "@lit/context": "^1.1.3",
+    "@lit/localize": "^0.12.2",
+    "@vaadin/router": "^2.0.0",
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "sinon": "^19.0.2",
+    "@lit/localize-tools": "^0.8.0",
+    "@open-wc/testing": "^4.0.0",
+    "@remcovaes/web-test-runner-vite-plugin": "^1.2.2",
+    "@types/jest": "^29.5.14",
+    "@types/sinon": "^17.0.3",
+    "@web/test-runner": "^0.19.0",
+    "prettier": "^2.6.2",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3"
+  }
+}
